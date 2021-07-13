@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java</title>
+</head>
+<body>
+<h2>This is heading</h2>
+<p id="d"></p>
+<p onclick= 'document.getElementById("d").innerHTML="Good Morning"'>Click me</p>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Click me</title>
+</head>
+<body>
+<h2>This is heading.</h2>
+<p id="d"></p>
+<button onclick= 'document.getElementById("d").innerHTML="Good Morning"'>Click me<
+
+
+</body>
+</html>
