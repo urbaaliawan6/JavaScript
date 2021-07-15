@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Division,Multiplication,Addition</title>
+</head>
+<body>
+
+<h2>Equation and Apply the if-else Conditions</h2>
+<p id="divide"></p>
+<script>
+var a=4;
+var b=12;
+var c=9;
+var d=33;
+var e=11;
+var f=11;
+var c=a+(b*d)-e/f;
+if (a==b) 
+	{
+		document.getElementById("divide").innerHTML="a value are equal b";
+	}
+
+else if(c<d)
+ {
+		document.getElementById("divide").innerHTML="c value are less than d";
+} 
+else if(e==f) 
+{
+		document.getElementById("divide").innerHTML= "e value are greater than f" ;
+}
+else
+{
+		document.getElementById("divide").innerHTML="Good Bye!";
+}
+</script>
+</body>
+</html>
