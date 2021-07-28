@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funtion Divide</title>
+</head>
+<p id="a"></p>
+<body>
+<script>
+function divi(a,b,c){
+	var d= a/b/c;
+	return d;
+}
+var result=divi(6,2,4);
+document.getElementById('a').innerHTML=result 
+</script>
+</body>
+</html>

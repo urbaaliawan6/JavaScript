@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funtion Multiplication</title>
+</head>
+<p id="a"></p>
+<body>
+<script>
+function mul(a,b,c){
+	var d= a*b*c;
+	return d;
+}
+var result=mul(6,8,9);
+document.getElementById('a').innerHTML=result 
+</script>
+</body>
+</html>

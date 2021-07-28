@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funtion Subtraction</title>
+</head>
+<p id="a"></p>
+<body>
+<script>
+function sub(a,b,c){
+	var d= a-b-c;
+	return d;
+}
+var result=sub(9,8,5);
+document.getElementById('a').innerHTML=result 
+</script>
+</body>
+</html>

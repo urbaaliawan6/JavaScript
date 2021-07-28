@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funtion Add</title>
+</head>
+<p id="a"></p>
+<body>
+<script>
+function add(a,b,c){
+	var d= a+b+c;
+	return d;
+}
+var result=add(2,6,9);
+document.getElementById('a').innerHTML=result 
+</script>
+</body>
+</html>
