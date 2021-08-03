@@ -1,0 +1,19 @@
+<!Doctype html>
+<html>
+<head>
+<title>Java Script </title>
+</head>
+<body>
+<p style="color: blue" id="p1"> My Name is Urba Ali Awan</p>
+<input type="number" id="number1">
+<input type="number" id="number2">
+<button onclick="sum()">Add button</button>
+<script>
+var a=3;
+var b=4;
+var c=a+b+"test";
+console.log(typeof(a));
+document.getElementById('p1').innerHTML=c;
+</script>
+</body>
+</html>

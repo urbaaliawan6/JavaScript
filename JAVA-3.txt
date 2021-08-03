@@ -1,0 +1,18 @@
+<!Doctype html>
+<html>
+<head>
+<title>Java Script </title>
+</head>
+<body>
+<p style="color: blue" id="p1"> My Name is Urba Ali Awan</p>
+<input type="number" id="number1">
+<input type="number" id="number2">
+<button onclick="change()">Change</button>
+<script>
+var a=2;
+var b=2;
+var c=(a!=b);
+document.getElementById('p1').innerHTML=c;
+</script>
+</body>
+</html>
