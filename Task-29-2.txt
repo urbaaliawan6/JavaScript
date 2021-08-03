@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funtion Add</title>
+</head>
+
+<body>
+
+
+<p id="a"></p>
+<script>
+	function lib(a,b,c,d)
+	{
+		return a+b*c/d;
+	}
+
+try 
+{ 
+
+var x=lib(3,7,4,5);
+document.getElementById('a').innerHTML=x;
+}
+catch(err)
+{
+document.getElementById('a').innerHTML=err.message;	
+}
+
+</script>
+</body>
+</html>

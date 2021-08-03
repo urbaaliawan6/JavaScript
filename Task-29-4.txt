@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head><title>Print 1 to 100</title></head>
+<body>
+
+<p id="a"></p>
+
+<script>
+var a="";
+function value()
+{
+for(var x=0;x<=100;x++)
+{
+a+=x+"<br>";
+}
+return a;
+}
+
+try
+{
+var x=value();
+document.getElementById("a").innerHTML=x;
+}
+
+catch(err)
+{
+document.getElementById("a").innerHtml=err.message;
+}
+
+</script>
+</body>
+</html>
+
+
+
