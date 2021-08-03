@@ -1,0 +1,16 @@
+<html>
+<head></head>
+<body>
+<p id="a"></p>
+<script>
+
+x=["a","b","c","d","e"]
+var t="";
+for(i=0;i<5;i++)
+{
+t+=x[i]+"<br>";
+}
+document.getElementById("a").innerHTML=t;
+</script>
+</body>
+</html>
