@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>function student</title>
+</head>
+<p id="a"></p>
+<p id="b"></p>
+<p id="c"></p>
+
+<input type="text" id="name"><br>
+<input type="text" id="email"><br>
+<input type="text" id="age">
+
+<body>
+<script>
+function student(name,email,age){
+this.name=name;
+this.email=email;
+this.age=age;
+}
+
+const s1 = new student("test","stu@gmail.com","21");
+document.getElementById('name').value=s1.name;
+document.getElementById('email').value=s1.email;
+document.getElementById('age').value=s1.age;
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multi</title>
+</head>
+<p id="a"></p>
+<body>
+<script>
+function mul(a,b){
+	var c= a*b;
+	return c;
+}
+var result=mul(4,4);
+document.getElementById('a').innerHTML=result;
+		
+
+</script>
+</body>
+</html>

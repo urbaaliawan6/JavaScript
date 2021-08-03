@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object</title>
+</head>
+<body>
+	<p id="a"></p>
+	<p id ="b"></p>
+	<p  id ="c"></p>
+	<p id="d"></p>
+<script>
+	const student={
+		Name:"test",
+		Email:"stu@gmail.com",
+		Age:21,
+
+	}
+document.getElementById('a').innerHTML= student.Name;
+document.getElementById('b').innerHTML= student.Email;
+document.getElementById('c').innerHTML= student.Age;
+
+</script>
+</body>
+</html>

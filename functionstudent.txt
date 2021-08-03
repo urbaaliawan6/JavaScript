@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>function student</title>
+</head>
+<p id="a"></p>
+<body>
+<script>
+function student(name,email,age){
+this.name=name;
+this.email=email;
+this.age=age;
+}
+
+const s1 = new student("test","stu@gmail.com","21");
+s1.number="12345678";
+delete s1.age;	
+console.log("student =",s1);
+
+</script>
+</body>
+</html>
