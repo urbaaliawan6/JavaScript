@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Funtions</title>
+</head>
+<p id="a"></p>
+<p id="b"></p>
+<p id="c"></p>
+<p id="d"></p>
+
+<body>
+<script>
+function add(a,b,c){
+	var d= a+b+c;
+	return d;
+}
+var result=add(2,6,9);
+document.getElementById('a').innerHTML=result
+
+function mul(a,b,c){
+	var d= a*b*c;
+	return d;
+}
+var result=mul(6,8,9);
+document.getElementById('b').innerHTML=result 
+ function sub(a,b,c){
+	var d= a-b-c;
+	return d;
+}
+var result=sub(9,8,5);
+document.getElementById('c').innerHTML=result  
+
+function divi(a,b,c){
+	var d= a/b/c;
+	return d;
+}
+var result=divi(6,2,4);
+document.getElementById('d').innerHTML=result 
+</script>
+</body>
+</html>
