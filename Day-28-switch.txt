@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<title>Task-28-4</title>
+<head></head>
+<body>
+<p id="a"></p>
+
+<script>
+
+let x=0;
+let y="";
+switch (x)
+{
+	case 0:
+	y="Monday";
+	break;
+
+
+
+	case 1:
+	y="Sunday";
+	break;
+
+	 default:
+	y="Nothing";
+	break;
+}
+document.getElementById("a").innerHTML=y;
+
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<title>Task-28-3</title>
+<head></head>
+<body>
+<p id="a"></p>
+
+<script>
+
+let x=[1,2,3,4,5];
+let y="";
+let z=0;
+do
+{
+y=y+x[z]+"<br>";
+z++;
+}
+while(z<5)
+{
+
+
+
+document.getElementById("a").innerHTML=y;
+}
+</script>
+</body>
+</html>

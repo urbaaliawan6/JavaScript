@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day-28</title>
+</head>
+<p id="a"></p>
+<body>
+<script>
+
+let x=[0,1,2,3,4,5];
+let y=" " ;
+for(let i=4; i>=0; i--)
+{
+y=y+x[i]+"<br>";
+}
+document.getElementById("a").innerHTML=y;
+</script>
+</body>
+</html>
