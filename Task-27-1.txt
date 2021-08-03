@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task-27-1</title>
+</head>
+<body>
+<p id="d"></p>
+<script>
+let a= 'U';
+let b= 'R';
+let c= 'B';
+let d= 'A';
+
+document.getElementById('d').innerHTML= 
+a + "<br>" + b + "<br>" + c+ "<br>"+d; 
+
+</script>
+</body>
+</html>

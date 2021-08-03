@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task-27-2</title>
+</head>
+<body>
+<p id="a"></p>
+
+<script>
+
+let x=[1,2,3,4,5];
+let y=0;
+for(let i=0; i<5; i++)
+{
+y=y+x[i];
+}
+
+document.getElementById("a").innerHTML=y;
+</script>
+</body>
+</html>

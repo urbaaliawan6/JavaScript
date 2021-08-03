@@ -1,0 +1,19 @@
+<!Doctype html>
+<html>
+<title>For loop</title>
+<head>
+</head>
+<body>
+<p id="a"></p>
+<script>
+
+const x=[1,2,3,4,5]
+var t="";
+for(i=0;i<5;i++)
+{
+t+=x[i]+"<br>";
+}
+document.getElementById("a").innerHTML=t;
+</script>
+</body>
+</html>

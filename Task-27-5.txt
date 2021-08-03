@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task-27-5</title>
+</head>
+<body>
+<p id="a"></p>
+<script>
+let a='Hello World 1';
+let b='Hello World 2';
+let c='Hello World 3';
+let d='Hello World 4';
+
+
+document.getElementById('a').innerHTML=
+a +"<br>" +b + "<br>" +"<br>"+ c+ "<br>"+ "<br>"+d; 
+</script>
+</body>
+</html>
